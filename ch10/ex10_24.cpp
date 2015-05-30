@@ -25,7 +25,7 @@ using std::bind;
 inline bool
 check_size(const string &s, string::size_type sz)
 {
-    return s.size() < sz;
+    return s.size() > sz;     
 }
 
 inline vector<int>::const_iterator
