@@ -32,7 +32,7 @@ int main()
 {
     std::vector<int> v = {1,23,6,4,5,7,4};
     std::list<std::string> l = {"ss","sszz","saaas","s333s","ss2","sss"};
-    print2(v, std::cout);
+    print(v, std::cout);   //not print2
     print2(l, std::cout);
 
     return 0;
